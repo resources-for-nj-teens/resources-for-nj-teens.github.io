@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@400;700&display=swap');
+
 body {
     background-color: aliceblue;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section {
@@ -23,7 +26,7 @@ section {
 }
 
 #school {
-    background-image: url("../img/pexels-johannes-plenio-1103970.jpg");
+    background-image: url("../img/pexels-dids-2714073.jpg");
 }
 
 #act-sat {
@@ -31,39 +34,40 @@ section {
 }
 
 #life-skills {
-    background-image: url("../img/pexels-johannes-plenio-1103970.jpg");
+    background-image: url("../img/pexels-cottonbro-4503268.jpg");
 }
 
 #hobby {
-    background-image: url("../img/pexels-johannes-plenio-1103970.jpg");
+    background-image: url("../img/pexels-yugdas-manandhar-2071168.jpg");
 }
 
+a.link-sect-box{
+    text-decoration: none;
+}
 div.link-sect {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(240, 248, 255, 0.95);
+    color: black;
     padding: 10px;
     border-radius: 1vh;
     margin: 1vh;
+    transition: transform .2s;
+}
+
+div.link-sect:hover {
+    transform: scale(1.05);
 }
 
 h1 {
-    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow: black 0px 0px 10px;
 }
 
 p {
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 
-a.rsrc-link{
+h3.rsrc-link{
     font-size: 3vh;
-    color: gold;
-}
-
-a.rsrc-link:visited{
-    color: lightgoldenrodyellow;
-}
-
-a.rsrc-link:hover{
-    background-color: cornflowerblue;
-    padding: 0px 5px;
+    color: dodgerblue;
+    font-weight: bold;
 }
